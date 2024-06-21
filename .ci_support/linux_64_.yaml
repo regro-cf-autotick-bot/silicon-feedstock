@@ -20,6 +20,8 @@ freetype:
 - '2'
 harfbuzz:
 - '8'
+libxcb:
+- '1.16'
 rust_compiler:
 - rust
 target_platform:
