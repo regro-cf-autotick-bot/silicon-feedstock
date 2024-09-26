@@ -1,5 +1,5 @@
 {% set name = "silicon" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/Aloxaf/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 815d41775dd9cd399650addf8056f803f3f57e68438e8b38445ee727a56b4b2d
+  sha256: 56e7f3be4118320b64e37a174cc2294484e27b019c59908c0a96680a5ae3ad58
 
 build:
-  number: 2
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
